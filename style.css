@@ -1,0 +1,57 @@
+:root {
+  --mouseX: 50%;
+  --mouseY: 50%;
+}
+
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: black;
+  font-family: 'VT323';
+}
+
+body {
+  max-height: 100vh;
+  background-size: auto 110%;
+  background-position: var(--mouseX) var(--mouseY);
+  background-repeat: no-repeat;
+  background-image: url('images/lake.gif');
+  background-attachment: fixed;
+  opacity: 0.8;
+  font-size: small;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 60%;
+  background-color: black;
+  border: 2px solid;
+  padding: 10px;
+}
+
+.updates {
+  margin: auto;
+  border: 2px solid;
+  padding: 0px 20px;
+  margin-top: 90px;
+}
